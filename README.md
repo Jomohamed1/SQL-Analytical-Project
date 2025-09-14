@@ -161,17 +161,9 @@ ORDER BY revenue DESC
 LIMIT 1;
 ```
 
-**Q4. Compare the average ratings of old vs modern movies.**  
-```sql
-SELECT 
-    CASE WHEN year_of_release < 2000 THEN 'Old' ELSE 'Modern' END AS movie_type,
-    AVG(r.rating) AS avg_rating
-FROM renting r
-JOIN movies m ON r.movie_id = m.movie_id
-GROUP BY movie_type;
-```
 
-**Q5. Which customers have not rented any movie in the last 2 years?**  
+
+**Q4. Which customers have not rented any movie in the last 2 years?**  
 ```sql
 SELECT c.customer_id, c.name
 FROM customers c
