@@ -4,6 +4,7 @@
 This project is based on a **movie rental database** containing multiple entities:  
 - **Movies**  
 - **Actors**  
+
 - **ActsIn (relation between movies and actors)**  
 - **Customers**  
 - **Renting (transactions of rentals)**  
@@ -17,6 +18,7 @@ The purpose of this analysis is to generate business insights using **SQL querie
 ---
 
 ## 📊 Dataset Schema
+<img width="1770" height="603" alt="Screenshot 2025-09-11 182918" src="https://github.com/user-attachments/assets/85e36ee7-ba9d-438a-b1fc-5f3f9c428437" />
 - **movies(movie_id, title, genre, runtime, year_of_release, renting_price)**  
 - **actors(actor_id, name, year_of_birth, nationality, gender)**  
 - **actsin(actsin_id, movie_id, actor_id)**  
