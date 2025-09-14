@@ -18,16 +18,11 @@ The purpose of this analysis is to generate business insights using **SQL querie
 ---
 
 ## 📊 Dataset Schema
-<img width="1770" height="603" alt="Screenshot 2025-09-11 182918" src="https://github.com/user-attachments/assets/85e36ee7-ba9d-438a-b1fc-5f3f9c428437" />
-- **movies(movie_id, title, genre, runtime, year_of_release, renting_price)**  
-- **actors(actor_id, name, year_of_birth, nationality, gender)**  
-- **actsin(actsin_id, movie_id, actor_id)**  
-- **customers(customer_id, name, country, gender, date_of_birth, date_account_start)**  
-- **renting(renting_id, customer_id, movie_id, rating, date_renting)**  
+<img width="1770" height="603" alt="Screenshot 2025-09-11 182918" src="https://github.com/user-attachments/assets/85e36ee7-ba9d-438a-b1fc-5f3f9c428437" /> 
 
 ---
 
-## 🔹 Level 1: Basic Questions & Queries
+## 🔹 Basic Questions & Queries
 
 **Q1. How many movies are in the database?**  
 ```sql
@@ -78,7 +73,7 @@ LIMIT 1;
 
 ---
 
-## 🔹 Level 2: Intermediate Questions & Queries
+## 🔹 Intermediate Questions & Queries
 
 **Q1. Who are the top 10 customers with the highest number of rentals?**  
 ```sql
@@ -128,7 +123,7 @@ ORDER BY num_actors DESC;
 
 ---
 
-## 🔹 Level 3: Advanced Questions & Queries
+## 🔹 Advanced Questions & Queries
 
 **Q1. Who are the actors that most frequently appear in top-rated movies?**  
 ```sql
