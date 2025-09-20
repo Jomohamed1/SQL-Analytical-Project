@@ -1,4 +1,4 @@
-# SQL Analytical Project Report
+# SQL MovieNow Analysis
 
 ## 📌 Introduction
 This project is based on a **movie rental database** containing multiple entities:  
